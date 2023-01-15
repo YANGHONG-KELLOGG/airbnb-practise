@@ -1,5 +1,8 @@
 -- What are all the neighborhoods?
 
+select distinct neighborhood from listings
+order by neighborhood;
+
 -- +------------------------+
 -- | Albany Park            |
 -- | Archer Heights         |
